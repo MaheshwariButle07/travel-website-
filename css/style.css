@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    text-decoration: none;
+}
+
+/*start of navigation bar */
+
+.nav{
+    height: 100%;
+    background-color: #e3eded;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+}
+
+.search-bar{
+    margin: 10px;
+    padding: 15px;
+    margin-left: 0;
+    padding-left: 0;
+    border: none;
+    background-color:#e3eded ;
+    border-bottom: 2px solid black;
+}
+
+.nav-content{
+    padding-right: 30px;
+    color: gray;
+}
+
+.s-btn{
+border: none;
+color: gray;
+background-color: #e3eded; 
+}
+
+.social{
+        font-size: 25px;
+        padding: 10px;
+}
+
+
+    
+
+/*end of navigation bar */
+
+
+.background-img{
+    height: 600px;
+    background-image:url(./../images/background-img.jpg);
+    background-repeat: no-repeat;
+   background-attachment:local;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    padding: 10px;
+    font-size: 30px;
+    color:black;
+}
+
+
+.para{
+    text-align: center;
+    padding: 40px;
+    margin: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content:center;
+}
+
+.card{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 15px;
+    padding: 120px;
+}
+
+.a{
+    background-image: url(./../images/travel.webp);
+}
+
+.b{
+    background-image: url(./../images/eat.jpg);
+}
+
+.c{
+    background-image: url(./../images/relax.jpg);
+}
+
+.c-btn{
+    position:relative;
+	padding: 10px;
+    margin-left: 15px;
+	background-color: white;
+    color:#8d4ce2 ;
+    border: none;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.c-btn:hover{
+    background-color: #8d4ce2;
+    color: white;
+}
+
+   
+.feature{
+    background-color:#e3eded;
+    padding: 70px;
+    text-align: center;
+}
+
+.travel{
+   padding-left: 20px;
+   padding-right: 20px;
+    
+    font-size: 20px;
+}
+
+.review{
+    border: 0.5px solid black;
+    width: 920px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.r-img{
+    width: 100%;
+    
+   
+}
+
+.user-img{
+    width: 60px;
+    margin:10px;
+    padding-right: 20px;
+
+}
+
+.cmt{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 30px;
+}
+
+.user-name{
+    padding: 25px 0;
+}
+
+.s-icons{
+    height: 30px;
+    padding: 15px;
+}
+
+.like{
+   position: absolute;
+   right: 350px;
+
+}
+
+.sm{
+    background-color: #4c61cc;
+    padding:50px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.sm-btn{
+    font-size: 30px;
+    color: white;
+    
+}
+
+.font{
+    font-size: 15px;
+}
+
+.g-img{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery{
+  height: 200px;   
+}
+
+
+.footer{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.f-img{
+    height: 150px;
+}
+
+.f-heading{
+    font-size: 25px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.link{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+   
+}
+
+.f-para{
+    padding: 20px;
+    text-align: left;
+    margin: 10px;
+}
+
+.about-us{
+    display: flex;
+}
