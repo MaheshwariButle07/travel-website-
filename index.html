@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel website</title>
+    <title>index page</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -26,7 +26,7 @@
       <div >
         <a class="nav-content" href="#" >Home</a>
         <a class="nav-content" href="#" >About</a>
-        <a class="nav-content" href="#" >Travel</a>
+        <a class="nav-content" href="./pages/travel.html" >Travel</a>
         <a class="nav-content" href="#" >Eat</a>
         <a class="nav-content" href="#" >Relax</a>
         <a class="nav-content" href="#" >Videos</a>
@@ -70,17 +70,17 @@
 
     <div class="cards">
       <div class="card a">
-        <button class="c-btn">Travel</button> 
+        <a href="./pages/travel.html" class="c-btn">Travel</a> 
       </div>
 
 
       <div class="card b">
-        <button class="c-btn">Eat</button> 
+        <a class="c-btn">Eat</a> 
       </div>
 
         
       <div class="card c">
-        <button class="c-btn">Relax</button> 
+        <a class="c-btn">Relax</a> 
       </div>
     </div>
 
@@ -135,7 +135,7 @@
       </span>
     
 
-    <h3 class="user-name">The Girl from Ipanema</h3>
+    <h3 class="user-name">The Mexico Diary, Day 1: Oaxaca</h3>
 
     <span>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</span><br>
 
@@ -162,7 +162,7 @@
       </span>
     
 
-    <h3 class="user-name">The Girl from Ipanema</h3>
+    <h3 class="user-name">Mykonos with Mr. & Mrs. Smith</h3>
 
     <span>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</span><br>
 
@@ -209,10 +209,10 @@
  <div class="footer">
     <div class="about-us">
       <img class="f-img" src="./images/footer.jpg" alt="img">
-    <div>
+    <div class="f-info">
       <span class="f-heading">About Me</span><br><br>
       <span class="f-para">
-        I'm a paragraph. Click here to add your own text and edit  me. It’s easy. Just click “Edit Text” or double click me to  add your own content and make changes to the font.
+        I'm a paragraph. Click here to add your own text and edit <br> me. It’s easy. Just click “Edit Text” or double click me to <br>  add your own content and make changes to the font.
       </span><br><br>
       <a class="link" href="#">Read More</a>
     </div>
@@ -220,13 +220,19 @@
 
 
     <div>
-
       <span class="f-heading">Join My Mailing List</span><br><br>
       <span>Email*</span><br>
-      <input type="text" >
-
+      <input class="input" type="text" placeholder="Enter Your email here"><br><br>
+      <button class="sub-now">Subscribe Now</button>
     </div>
-</div>
+
+  </div>
+
+  <div class="sponser">
+    @ 2035 by Going Places.
+  </div>
+
+
 
 
 
