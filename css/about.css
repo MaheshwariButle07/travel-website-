@@ -1,0 +1,21 @@
+.heading{
+   
+    padding: 150px 350px;
+   
+ }
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.a-img{
+    height: 450px;
+    
+}
+
+.mail{
+    text-decoration: none;
+}
