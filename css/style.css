@@ -33,6 +33,11 @@
     color: gray;
 }
 
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
 .s-btn{
 border: none;
 color: gray;
@@ -41,7 +46,73 @@ background-color: #e3eded;
 
 .social{
         font-size: 25px;
-        padding: 10px;
+        padding: 20px;
+}
+
+.ham_menu{
+   height: 35px;
+   position:fixed;
+   right: 40px;
+  
+   
+ }
+
+@media screen and (min-width: 600px) {
+    .ham_menu{
+        visibility: hidden;
+    } 
+}
+
+@media screen and (max-width: 880px) {
+    .ham_menu{
+        visibility: visible;
+    }
+
+    .h_social{
+        visibility: hidden;
+    }
+
+    .nav-content{
+        display: none;
+    }
+
+    .footer{
+        
+        flex-direction: column; 
+    }
+
+    .ham_menu{
+        height: 30px;
+        right: 0px;
+        padding: 10px 20px;
+
+    }
+
+  
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sm{
+        flex-direction: column;
+       
+    }
+
+    .g-img{
+        flex-direction: column;
+        
+    }
+
+    .sm-btn{
+        padding: 30px;
+    }
+
+    .f-img{
+        display: none;
+    }
+    
 }
 
 
@@ -127,7 +198,6 @@ background-color: #e3eded;
 .travel{
    padding-left: 20px;
    padding-right: 20px;
-    
     font-size: 20px;
 }
 
@@ -170,9 +240,7 @@ background-color: #e3eded;
 }
 
 .like{
-   position: absolute;
-   right: 350px;
-
+   position:static;
 }
 
 .sm{
@@ -222,6 +290,7 @@ background-color: #e3eded;
 
 .link{
     color: white;
+   
 }
 
 
